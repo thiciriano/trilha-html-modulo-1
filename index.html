@@ -1,62 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <title>Aprendendo HTML: Um Guia Simples para Todos</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
+    <h1>Aprendendo HTML: Construindo Páginas da Web</h1>
+    <p>Oi! Neste blog, vamos explorar o que aprendemos no bootcamp de HTML. Pense no HTML como um conjunto de blocos que usamos para montar páginas na internet, como se fosse uma casa digital. Cada curso nos ensina novos blocos, e aqui vamos resumir tudo de forma clara para qualquer pessoa entender, até quem está começando agora! Use o menu abaixo para pular para cada parte.</p>
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <h2>Menu de Navegação</h2>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#introducao">Introdução ao HTML</a></li>
+        <li><a href="#formularios">Formulários em HTML</a></li>
+        <li><a href="#estruturacao">Estruturação e Formatação</a></li>
+        <li><a href="#midias">Mídias em HTML</a></li>
+        <li><a href="#tabelas">Tabelas em HTML</a></li>
+        <li><a href="#semantico">HTML Semântico</a></li>
+        <li><a href="#referencias">Referências</a></li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <hr>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <h2 id="introducao">Introdução ao HTML: Os Primeiros Passos</h2>
+    <p>No curso <strong>Introdução ao HTML na Prática</strong>, aprendemos o básico para criar páginas na internet. Primeiro, conhecemos ferramentas como o <i>Visual Studio Code</i>, que é como um caderno digital para escrever código, e o <i>Inspetor de Elementos</i>, que nos deixa ver como as páginas são feitas.</p>
+    <p>O HTML tem uma <u>estrutura básica</u>: usamos tags como <i>html</i>, <i>head</i> e <i>body</i> para montar o esqueleto da página. Tags são como etiquetas que dizem o que cada parte faz, como <i>h1</i> para títulos grandes e <i>p</i> para parágrafos. Algumas tags têm <i>atributos</i>, que são instruções extras, como dizer que um link leva para outro site.</p>
+    <p>Aprendemos a formatar textos, como usar <font color="blue">font</font> (uma tag antiga, hoje menos usada) para mudar a cor, e a fazer listas. Por exemplo, uma lista ordenada (<i>ol</i>) para passos:</p>
+    <ol>
+        <li>Escrever a tag <i>html</i></li>
+        <li>Adicionar <i>head</i> e <i>body</i></li>
+        <li>Usar <i>h1</i> para o título principal</li>
+    </ol>
+    <p>E uma lista não ordenada (<i>ul</i>) para ideias soltas:</p>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li>Títulos</li>
+        <li>Textos</li>
+        <li>Links com <i>a</i></li>
     </ul>
+    <p>Links (<i>a</i>) são como portas para outras páginas, e usamos atributos para dizer aonde elas levam, como <a href="https://www.example.com">exemplo.com</a>.</p>
+    <blockquote>HTML é como um mapa que organiza tudo na página da web. - Instrutor do Curso</blockquote>
+
+    <hr>
+
+    <h3 id="formularios">Formulários: Interagindo com os Visitantes</h3>
+    <p>No curso <strong>Trabalhando com Formulários</strong>, aprendemos a criar formas de conversar com quem visita nossa página. Usamos a tag <i>form</i> para fazer um formulário, como um questionário. Dentro dele, a tag <i>input</i> cria campos para escrever coisas, como nome ou e-mail. Existem vários tipos de <i>input</i>, como:</p>
+    <ul>
+        <li><i>text</i>: para escrever palavras</li>
+        <li><i>checkbox</i>: para marcar várias opções, como escolher sabores de pizza</li>
+        <li><i>radio</i>: para escolher só uma opção, como “sim” ou “não”</li>
+    </ul>
+    <p>Também usamos <i>button</i> para botões, como “Enviar”, e <i>select</i> para listas de escolhas, como um menu de cores favoritas. A tag <i>textarea</i> é para escrever textos maiores, como uma mensagem. A tag <del>font</del> foi mencionada como algo antigo, substituído por outras formas de estilizar.</p>
+
+    <hr>
+
+    <h4 id="estruturacao">Estruturação e Formatação: Organizando e Enfeitando</h4>
+    <p>No curso <strong>Estruturando seu HTML + Formatações</strong>, aprendemos a organizar a página e deixar o texto bonito. Usamos <i>div</i> para criar caixas que agrupam pedaços da página e <i>span</i> para destacar partes pequenas do texto, como uma palavra <mark>especial</mark>.</p>
+    <p>Para enfeitar, usamos tags como <i>strong</i> para texto <strong>importante</strong>, <i>i</i> para <i>itálico</i>, e <i>u</i> para <u>sublinhar</u>. Também usamos <i>sub</i> para escrever coisas como H<sub>2</sub>O (água) e <i>sup</i> para x<sup>2</sup> (elevado ao quadrado).</p>
+    <p>A tag <i>fieldset</i> organiza formulários, como colocar uma moldura em torno de perguntas. Também vimos <i>embed</i> e <i>iframe</i> para adicionar conteúdos, como vídeos de outros sites, e aprendemos sobre cores para deixar a página mais alegre.</p>
+
+    <hr>
+
+    <h5 id="midias">Mídias: Adicionando Imagens, Sons e Vídeos</h5>
+    <p>No curso <strong>Trabalhando com Mídias</strong>, descobrimos como colocar coisas legais na página, como fotos, músicas e vídeos. A tag <i>img</i> adiciona imagens, e usamos o atributo <small>alt</small> para descrever a imagem, ajudando quem usa leitores de tela. A tag <i>audio</i> toca músicas, e <i>video</i> mostra vídeos.</p>
+    <p>A tag <i>track</i> adiciona legendas aos vídeos, e <i>iframe</i> é como uma janela para mostrar outras páginas dentro da nossa. Tudo isso faz a página ficar mais divertida!</p>
+
+    <hr>
+
+    <h6 id="tabelas">Tabelas: Organizando Informações</h6>
+    <p>No curso <strong>Criando Tabelas</strong>, aprendemos a fazer tabelas, que são como grades para organizar informações. Usamos a tag <i>table</i> para criar a tabela, <i>tr</i> para linhas, <i>td</i> para células com dados e <i>th</i> para títulos das colunas. Também usamos <i>thead</i> (cabeçalho), <i>tbody</i> (corpo) e <i>tfoot</i> (rodapé) para dividir a tabela em partes.</p>
+    <p>Exemplo de coisas que podemos organizar em tabelas:</p>
+    <ul>
+        <li>Nomes de amigos</li>
+        <li>Horários de aulas</li>
+        <li>Pontuações de jogos</li>
+    </ul>
+
+    <hr>
+
+    <h2 id="semantico">HTML Semântico: Páginas Inteligentes</h2>
+    <p>No curso <strong>Entendendo HTML Semântico</strong>, aprendemos a usar tags que deixam a página mais organizada e fácil de entender, tanto para pessoas quanto para computadores. Por exemplo, usamos <i>header</i> para o topo da página, <i>nav</i> para o menu, <i>main</i> para o conteúdo principal, <i>section</i> para dividir partes e <i>footer</i> para o rodapé.</p>
+    <p>Outras tags, como <i>aside</i> para conteúdos extras, <i>article</i> para textos completos e <i>blockquote</i> para citações, ajudam a organizar tudo. Veja um exemplo:</p>
+    <blockquote>Uma página semântica é como uma casa onde cada cômodo tem um nome claro, como “cozinha” ou “sala”. - Instrutor</blockquote>
+    <p>Também aprendemos sobre <i>acessibilidade</i>, para que todos possam usar a página, e <i>SEO</i> (<abbr title="Search Engine Optimization">Otimização para Motores de Busca</abbr>), para ajudar o Google a encontrar nossa página. Tags como <i>figure</i>, <i>figcaption</i> e <i>picture</i> são usadas para imagens especiais, e <i>q</i> para citações curtas.</p>
+
+    <hr>
+
+    <h2 id="referencias">Referências: Onde Aprender Mais</h2>
+    <p>Quer continuar explorando o HTML? Aqui estão alguns links úteis:</p>
+    <ul>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools - Tutorial de HTML</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a></li>
+        <li><a href="https://www.youtube.com/watch?v=3oSIqIqzN3M" target="_blank">Vídeo: Introdução ao HTML (YouTube)</a></li>
+        <li><a href="https://www.htmldog.com/guides/html/" target="_blank">HTML Dog - Guia de HTML</a></li>
+    </ul>
+    <p><small>Este blog foi criado para o Desafio de Projeto do bootcamp HTML na Prática. Boa aventura construindo suas páginas!</small></p>
 
 </body>
 </html>
